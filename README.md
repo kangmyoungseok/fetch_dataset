@@ -30,4 +30,7 @@
 
     setInterval(ClickConnect, 60 * 1000)
 
+# 5. PC 전원 안꺼지게 하는건 당연한거 알죠?
+![image](https://user-images.githubusercontent.com/33647663/144437838-4c3d7aeb-c93c-4659-b1d4-537c54b0f1b3.png)
+
 # 나눠서 잘 돌려보자구 !
