@@ -126,7 +126,16 @@ if __name__=='__main__':
     if(int(select) == 3):
         datas = datas[9001:13500]
     if(int(select) == 4):
-        datas = datas[13500:]
+        datas = datas[13500:14500]
+    if(int(select) == 5):
+        datas = datas[14501:15500]
+    if(int(select) == 6):
+        datas = datas[15501:16500]
+    if(int(select) == 7):
+        datas = datas[16501:17500]
+    if(int(select) == 8):
+        datas = datas[17501:]
+    
     
 
     try:
