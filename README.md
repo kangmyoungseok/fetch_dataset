@@ -34,3 +34,14 @@
 ![image](https://user-images.githubusercontent.com/33647663/144437838-4c3d7aeb-c93c-4659-b1d4-537c54b0f1b3.png)
 
 # 나눠서 잘 돌려보자구 !
+
+# 6. merge.py 
+- 나눠서 구한 Labeling 파일 하나로 병합 -> Labeling_v3.3.csv
+
+# 7. Labeling_to_Dataset.py
+- Labeling 파일을 Dataset 형태로 변환 -> Dataset_v1.9.csv
+- 수작업으로 Dataset_v1.9.csv에서 각 컬럼별로 정렬해서 상위 몇개 값이 튀는 애들 삭제. 총 30개 정도?
+
+# 8. validate.py
+- False로 라벨링 된 토큰중에 혹시,, 스캠이 발생한 애들이 있는지. 16개 발견해서 True로 라벨링 변경
+- -> Dataset_v1.10.csv -> Web Application에서 사용할 최종 데이터셋 Fix
